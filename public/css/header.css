@@ -1,0 +1,108 @@
+/* Header Style */
+
+.main-header {
+    padding: 8px 0;
+}
+
+.navmenu {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.headerLogo {
+    width: 165px;
+    position: relative;
+    height: 45px;
+    z-index: 2;
+}
+
+.navmenuItem {
+    color: #263238;
+    font-size: 15px;
+    display: inline-flex;
+    font-weight: 500;
+}
+
+.langSelectBtn .MuiSelect-select {
+    display: flex !important;
+    align-items: center !important;
+    gap: 5px;
+    color: #fff !important;
+}
+
+.langSelectBtn {
+    box-shadow: none !important;
+    height: 38px !important;
+    background: #094067 !important;
+    border-radius: 50px !important;
+    border: 0;
+    color: #fff !important;
+    padding: 0 5px !important;
+}
+
+.langSelectBtn .MuiMenu-list li {
+    display: flex;
+    font-size: 14px;
+    gap: 10px;
+    min-height: auto;
+}
+
+.langSelectBtn .MuiSelect-icon {
+    color: #fff !important;
+    right: 8px;
+}
+
+.headerCustomerSupport p {
+    color: #263238;
+    font-size: 13px;
+    margin-bottom: 2px;
+}
+
+.headerCustomerSupport h5 {
+    color: #263238;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+.langaugeCurrencyMenu {
+    min-width: 420px;
+    padding: 15px;
+}
+
+.innerHeader .navmenuItem {
+    color: #fff;
+}
+
+.innerHeader .headerCustomerSupport p,
+.innerHeader .headerCustomerSupport h5 {
+    color: #fff;
+}
+
+.innerHeader .transparentSelectBtn,
+.innerHeader .transparentSelectBtn svg {
+    color: #fff !important;
+}
+
+.innerHeader button.MuiButtonBase-root {
+    border-color: #fff;
+    color: #fff;
+}
+
+.innerHeader button.MuiButtonBase-root:hover {
+    border-color: #003053;
+}
+
+/* Header Style */
+
+.innerHeader {
+    background: linear-gradient(94.14deg, #023256 3.09%, #016AAE 100%);
+    padding: 0;
+}
+
+@media screen and (max-width:1199px) {
+    .navmenu {
+        gap: 24px;
+    }
+}

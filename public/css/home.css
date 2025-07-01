@@ -1,0 +1,557 @@
+/* Why Choose Us Section */
+
+.whyChooseUsSection {
+    position: relative;
+    margin-top: 0;
+    z-index: 2;
+}
+
+.whyChooseCard {
+    overflow: visible !important;
+    text-align: center;
+    padding: 35px !important;
+    position: relative;
+    margin-top: -40px;
+}
+
+.whyChooseCardIconWrapper {
+    background: transparent;
+    width: 65px;
+    height: 65px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 12px;
+    border-radius: 50px;
+    box-sizing: border-box;
+    outline: 7px solid #F0F9F8;
+    outline-offset: 8px;
+    margin-bottom: 40px;
+}
+
+.whyChooseUsSection:before {
+    content: '';
+    width: 120%;
+    height: 140px;
+    background: #023256;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    border-bottom-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.whyChooseCard h3 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.whyChooseCardIconWrapper img {
+    padding: 5px;
+}
+
+.whyChooseUsCardLeft .whyChooseCard {
+    border-bottom-left-radius: 0;
+}
+
+.whyChooseUsCardLeft .whyChooseCard:before {
+    content: '';
+    position: absolute;
+    height: 0;
+    border-style: solid;
+    border-width: 45px 360px 0px 0px;
+    border-color: white transparent transparent transparent;
+    left: 0;
+    bottom: -45px;
+    filter: drop-shadow(0px 10px 6px #042F7112);
+    width: 100%;
+    border-bottom-left-radius: 7px;
+}
+
+.whyChooseUsCardRight .whyChooseCard {
+    border-bottom-right-radius: 0;
+}
+
+.whyChooseUsCardRight .whyChooseCard:before {
+    content: '';
+    position: absolute;
+    height: 0;
+    border-style: solid;
+    border-width: 45px 0px 0px 350px;
+    border-color: #ffffff #ffffff #de000000 #ff252500;
+    left: 0;
+    bottom: -45px;
+    filter: drop-shadow(0px 10px 6px #042F7112);
+    width: 100%;
+    border-bottom-right-radius: 7px;
+}
+
+/* Why Choose Us Section */
+
+
+/* Find Best Deal Section Start */
+
+.findDealLeftTopBox {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.findDealLeftTopImage {
+    height: 350px;
+    width: 100%;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.findDealLeftTopContent {
+    position: absolute;
+    width: 30%;
+    height: 100%;
+    background: rgb(10 85 127 / 65%);
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding-left: 35px;
+    z-index: 2;
+}
+
+.dealFromTo h3 {
+    color: #fff;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+
+.dealFromTo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+}
+
+.findDealLeftTopContent p {
+    color: #fff;
+    font-weight: 300;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.findDealLeftTopContent:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    border-style: solid;
+    border-width: 360px 90px 0 0;
+    border-color: rgb(10 85 127 / 65%) transparent transparent transparent;
+    bottom: 0;
+    width: 50px;
+    right: -90px;
+    z-index: 1;
+}
+
+.findDealLeftTopContent button {
+    color: #fff;
+    margin-top: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-top: 1px solid rgb(255 255 255 / 33%);
+    border-bottom: 1px solid rgb(255 255 255 / 33%);
+    font-size: 14px;
+    font-family: 'Barlow', sans-serif;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+    padding: 0;
+}
+
+.findDealLeftTopContent button:hover {
+    background: transparent;
+    border-left: 0;
+    border-right: 0;
+    color: #00BDBB;
+}
+
+
+.findDealLeftBottomBox {
+    position: relative;
+    margin-top: 32px;
+}
+
+.findDealLeftBottomImage {
+    height: 230px;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.findDealLeftBottomContent {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px;
+    z-index: 2;
+}
+
+
+.findDealLeftBottomContent h3 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+.findDealLeftBottomContent p {
+    color: #fff;
+    font-size: 14px;
+}
+
+.findDealSummerDestination {
+    background: #ffffff;
+    padding: 35px;
+    min-height: 230px;
+    border-radius: 10px;
+}
+
+.findDealSummerDestination h2 {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    line-height: 30px;
+}
+
+.findDealSummerDestination p {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.findDealRightBottomLeftBox .findDealLeftBottomImage {
+    height: 333px;
+}
+
+.findDealRightBottomLeftBox .findDealLeftBottomContent {
+    background: rgb(10 85 127 / 80%);
+}
+
+.newbadge {
+    width: 50px;
+    height: 50px;
+    background: #F27502;
+    display: inline-flex;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    z-index: 2;
+}
+
+.findDealRightBottomRightBox .findDealLeftBottomContent {
+    top: 0;
+    bottom: inherit;
+}
+
+.findDealRightBottomLeftBox .offeerBadgeOne {
+    width: 75px;
+    height: 30px;
+    background: #F27502;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 52px;
+    right: 15px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    z-index: 2;
+    padding: 5px;
+    text-align: center;
+}
+
+.findDealRightBottomLeftBox .offeerBadgeOne:before {
+    content: '';
+    position: absolute;
+    height: 10px;
+    border-style: solid;
+    border-width: 0px 0px 12px 8px;
+    border-color: transparent transparent #492300 transparent;
+    left: -8px;
+    top: 0;
+}
+
+.findDealRightBottomRightBox .offeerBadgetwo {
+    width: 68px;
+    height: 68px;
+    background: #F27502;
+    display: inline-flex;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 32px;
+    right: 15px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.2;
+    z-index: 2;
+    padding: 5px;
+    text-align: center;
+}
+
+/* Find Best Deal Section End */
+
+
+/* Download App Start */
+
+.appdownload-section {
+    background: rgb(206 222 233 / 62%);
+}
+
+.appDownloadImage {
+    height: 465px;
+    position: relative;
+    max-width: 100%;
+    max-height: -moz-max-content;
+    max-height: max-content;
+}
+
+.appDownloadContent {
+    padding-right: 70px;
+}
+
+.appDownloadContent h2 {
+    margin-bottom: 20px;
+    color: #0A557F;
+    font-size: 30px;
+    padding-right: 120px;
+    line-height: 1.3;
+}
+
+
+
+/* Download App End*/
+
+
+.popularFlightSection .flightBookCard {
+    background: #fff;
+}
+
+@media screen and (max-width: 1200px) {
+
+    .findDealLeftBottomImage {
+        height: 257px;
+    }
+
+    .whyChooseUsCardLeft .whyChooseCard:before {
+        border-width: 45px 280px 0px 0px;
+    }
+
+    .whyChooseUsCardRight .whyChooseCard:before {
+        border-width: 45px 0px 0px 280px;
+    }
+
+    .whyChooseCard {
+        padding: 25px !important;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .whyChooseCard h3 {
+        font-size: 17px;
+    }
+
+    .findDealLeftTopContent {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .heroBannerSection {
+        height: 420px;
+    }
+
+    .searchFormFieldWrapper {
+        flex-wrap: wrap;
+    }
+
+    .searchFormFieldWrapper>.MuiBox-root {
+        width: 40%;
+        flex: inherit;
+    }
+
+    .searchFormFieldWrapper>.MuiBox-root {
+        width: calc(50% - 16px);
+        flex: inherit;
+    }
+
+    .searchFormFieldBox .MuiTextField-root {
+        width: 100%;
+    }
+
+    .whyChooseCard {
+        padding: 20px !important;
+        margin-bottom: 40px;
+    }
+
+
+    .whyChooseUsCardLeft .whyChooseCard:before,
+    .whyChooseUsCardRight .whyChooseCard:before {
+        display: none;
+    }
+
+    .appDownloadContent {
+        padding: 0;
+    }
+
+    .appDownloadContent h2 {
+        padding: 0;
+    }
+
+    .whyChooseUsCardRight .whyChooseCard {
+        margin-bottom: 0;
+    }
+
+    .appDownloadImage {
+        height: 375px;
+    }
+
+    .react-datepicker__tab-loop .react-datepicker__day-name,
+    .react-datepicker__tab-loop .react-datepicker__day,
+    .react-datepicker__tab-loop .react-datepicker__time-name {
+        width: 36px;
+        height: 36px;
+        margin: 2px;
+    }
+
+    .react-datepicker__tab-loop .react-datepicker__month {
+        margin: 5px;
+    }
+}
+
+/* Home Mobile CSS */
+
+@media screen and (max-width:767px) {
+
+    .appDownloadContent {
+        text-align: center;
+    }
+
+    .mobileFindDealBox {
+        margin: 0 10px;
+        position: relative;
+        border-radius: 8px;
+        overflow: hidden;
+    }
+
+    .mobileFindDealImage {
+        position: relative;
+        height: 224px;
+        width: 100%;
+    }
+
+    .mobileFindDealPrice {
+        position: absolute;
+        top: 10px;
+        left: 18px;
+        z-index: 3;
+        color: #fff;
+        background: #00BDBB80;
+        padding: 4px 12px;
+        font-size: 13px;
+        border-radius: 5px;
+    }
+
+    .mobileFindDealContent {
+        position: absolute;
+        width: calc(100% - 20px);
+        background: rgb(255 255 255 / 75%);
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 10px;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        border-radius: 10px;
+        z-index: 2;
+        justify-content: space-between;
+    }
+
+    .mobileFindDealContent h5 {
+        font-weight: 400;
+        font-size: 14px;
+        color: #555660;
+    }
+
+    .mobileFindDealContent h4 {
+        font-weight: 500;
+        font-size: 14px;
+        color: #0F2454;
+    }
+
+    .mobileFindDealContent button {
+        padding-left: 9px;
+        padding-right: 9px;
+        font-size: 13px;
+        font-weight: 500;
+        background: #000000;
+        border-radius: 8px;
+    }
+
+
+
+    .mobilePopularFlightsImage {
+        position: relative;
+        height: 100px;
+    }
+
+    .mobilePopularFlightsBox {
+        background: #fff;
+        box-shadow: 0px 0px 20px 10px #0048710D;
+        border-radius: 8px;
+        overflow: hidden;
+        width: 100%;
+    }
+
+    .mobilePopularFlightsInfo {
+        padding: 15px 10px;
+    }
+
+    .mobilePopularFlightsInfo h5 {
+        font-size: 14px;
+        font-weight: 400;
+        color: #676977;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .mobilePopularFlightsPrice {
+        color: #F27502;
+        font-size: 14px;
+    }
+
+    .mobilePopularFlights .slick-list {
+        overflow: visible;
+    }
+}
+
+@media screen and (max-width:575px) {}

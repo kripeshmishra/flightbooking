@@ -1,0 +1,561 @@
+/* Mobile CSS */
+
+.mobilebody {
+    background: #EAF4FA;
+    padding-bottom: 70px;
+}
+
+
+.mobileHeroSection {
+    background: #023256;
+    background-repeat: repeat;
+    background-size: contain;
+    background-position: center;
+    padding: 16px;
+    padding-top: 80px;
+}
+
+.mobileSearchWidgetsType {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+}
+
+
+.mobileWidgetsTypeItem {
+    color: rgb(255 255 255 / 80%);
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+
+.mobileWidgetsTypeItem:hover {
+    color: #00BDBB;
+}
+
+.mobileWidgetsTypeItem.active {
+    color: #fff;
+    border-bottom: 2px solid #ddd;
+}
+
+.mobileRadioButtonTabStyle {
+    justify-content: center;
+    width: 100%;
+    gap: 25px;
+}
+
+
+.mobileRadioButtonTabStyle .MuiFormControlLabel-root {
+    position: relative;
+    margin-left: 0;
+}
+
+
+
+.mobileRadioButtonTabStyle .MuiFormControlLabel-label {
+    color: #000;
+    padding: 0;
+    border-radius: 0;
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 5px;
+    border-bottom: 2px solid transparent;
+}
+
+.mobileRadioButtonTabStyle .MuiRadio-root {
+    padding: 0;
+    position: absolute;
+}
+
+.mobileRadioButtonTabStyle .MuiRadio-root span {
+    opacity: 0;
+}
+
+.mobileRadioButtonTabStyle .MuiRadio-root.Mui-checked~.MuiFormControlLabel-label {
+    color: #00BDBB;
+    border-bottom: 2px solid #00BDBB;
+}
+
+.mobileSearchWidgetsFromBox .searchFormFieldBox .MuiInputBase-root {
+    height: 40px !important;
+}
+
+
+
+.mobileSearchFieldWrapper {
+    border-bottom: 1px solid #E7E7E7;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+
+.mobileSearchFieldBox .MuiInputBase-root {
+    border: 0;
+    padding: 0 !important;
+}
+
+.mobileFlightSwap {
+    width: 40px;
+    height: 40px;
+    border: 0;
+    border-radius: 50px;
+}
+
+
+.mobileSearchFieldBox {
+    flex: 1;
+    height: 50px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.mobileSearchWidgetsFromBox .searchFormFieldBox {
+    margin-top: 20px;
+}
+
+.mobileSearchWidgetsFromBox .searchFormLeftIcon {
+    left: 12px;
+    top: 11px;
+    color: #00BDBB;
+}
+
+.searchWidgetDateWrapper .MuiFormControl-root {
+    border-radius: 0;
+    flex: 1;
+}
+
+.mobileSearchWidgetsFromBox .searchWidgetDateWrapper {
+    display: flex;
+}
+
+.mobileSearchWidgetsFromBox .searchWidgetDateWrapper .MuiInputLabel-root {
+    transform: translateY(10px);
+}
+
+.searchWidgetPacksInfo {
+    gap: 15px;
+}
+
+.searchWidgetPacksInfo .MuiInputBase-root {
+    border-radius: 50px;
+    border: 0;
+}
+
+.searchWidgetPacksInfo .mobileTravelerBtn {
+    font-size: 14px;
+    background: #fff;
+    color: #676977;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding: 0 15px;
+    width: 100%;
+    height: 40px;
+}
+
+.searchWidgetPacksInfo .MuiSelect-select {
+    font-size: 14px !important;
+}
+
+.searchWidgetPacksInfo .MuiButton-endIcon {
+    margin-left: auto;
+}
+
+.mobileSearchWidgetsFromBox .searchFormFieldBox .MuiInputBase-input {
+    font-size: 14px;
+}
+
+.searchWidgetDateFrom:before {
+    height: 20px;
+}
+
+.sectionTitle h2 {
+    font-size: 18px;
+}
+
+.mobileTabStyleButton button {
+    padding: 0;
+    height: 32px;
+    min-height: auto;
+    color: #0A557F;
+    font-size: 14px;
+    font-weight: 500;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid #c5d7d5;
+    margin-left: 15px;
+    border-radius: 50px;
+}
+
+.mobileTabStyleButton button.Mui-selected {
+    background: #0A557F;
+    color: #fff;
+    border-color: #0A557F;
+}
+
+.customSlickSliderIndicator .slick-dots li button {
+    background: #adadad;
+    width: 20px;
+    height: 4px;
+    padding: 0;
+    border-radius: 5px;
+}
+
+.customSlickSliderIndicator .slick-dots li.slick-active button {
+    background: #F27502;
+}
+
+.customSlickSliderIndicator .slick-dots li button:before {
+    display: none;
+}
+
+.slick-slider .slick-next {
+    right: 10px;
+    width: 32px;
+    height: 32px;
+    background: #fff !important;
+    line-height: 32px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 17px -1px #353D3CBD !important;
+    z-index: 2;
+}
+
+
+.slick-slider .slick-next::before {
+    font-family: inherit;
+    opacity: 1;
+    color: #000000;
+    line-height: 28px;
+    font-size: 18px;
+}
+
+
+.slick-slider .slick-prev {
+    left: 10px;
+    width: 32px;
+    height: 32px;
+    background: #fff !important;
+    line-height: 32px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 17px -1px #353D3CBD !important;
+    z-index: 2;
+}
+
+.slick-slider .slick-prev::before {
+    font-family: inherit;
+    opacity: 1;
+    color: #000000;
+    line-height: 28px;
+    font-size: 18px;
+}
+
+.destinationCardImageWrapper {
+    height: 160px;
+}
+
+.destinationCardStyle h3 {
+    color: #fff;
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    font-size: 14px;
+    font-weight: 400;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    z-index: 2;
+}
+
+.sectionGap60 {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.newsletter-section {
+    background: transparent;
+    background-repeat: no-repeat;
+    background-position: right top, left bottom;
+}
+
+.newsletterform button {
+    text-transform: capitalize;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: absolute;
+    right: 5px;
+    height: 34px;
+    top: 4px;
+}
+
+.newsletter-section .icon-newsletter {
+    display: none;
+}
+
+.newsletter-section h5.newslettersubtitle {
+    text-align: center;
+}
+
+.newsletter-section h2.newslettertitle {
+    text-align: center;
+    font-size: 20px;
+}
+
+.newsletter-contentWrapper {
+    justify-content: center;
+}
+
+.socialMediaLinks {
+    justify-content: center;
+    margin-bottom: 35px;
+}
+
+.socialMediaLinks li a {
+    background-color: #ffffff;
+}
+
+.bottomNavActiveItem {
+    background: #0A557F !important;
+    border-radius: 10px !important;
+}
+
+.bottomNavActiveItem img {
+    filter: brightness(100);
+}
+
+.bottomNavActiveItem .MuiBottomNavigationAction-label {
+    color: #fff !important;
+}
+
+.footer-social-sec {
+    margin-top: 15px;
+}
+
+.socialMediaLinks li a {
+    color: #0A557F;
+}
+
+.newsletterform {
+    flex-direction: column;
+    height: auto;
+}
+
+.newsletter-section .newslettertitle {
+    font-size: 20px;
+}
+
+.newsletterform .MuiTextField-root {
+    flex: 1;
+    width: 100%;
+    height: 42px;
+    min-height: 42px;
+    justify-content: center;
+}
+
+
+.bottomDrawerPopup {
+    background: #fff;
+    height: 100% !important;
+}
+
+.bottomDrawerTopHeader {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #e5dfdf;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottomDrawerTopHeader h3 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.bottomDrawerTopHeader button {
+    min-width: auto;
+    width: 28px;
+    height: 28px;
+    background: #EAF4FA;
+    border-radius: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #003053;
+    padding: 0;
+}
+
+.bottomDrawerList {
+    flex-wrap: wrap;
+    display: flex;
+    gap: 15px;
+}
+
+.bottomDrawerList .MuiListItemButton-root {
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid #ede6e6;
+    padding-bottom: 12px;
+    border-radius: 50px;
+    width: calc(50% - 10px);
+    justify-content: center;
+    height: 36px;
+}
+
+.bottomDrawerList .Mui-selected {
+    background-color: #00bdbb !important;
+    color: #fff;
+    border: 1px solid #00bdbb !important;
+}
+
+.travelerCountBox h5 {
+    font-size: 15px;
+}
+
+.travelerCountBox p {
+    font-size: 13px;
+}
+
+
+/* Mobile Date picker popup */
+
+.bottomDrawerPopup .react-datepicker {
+    box-shadow: none;
+}
+
+.react-datepicker__month-container {
+    width: 100%;
+}
+
+.react-datepicker__header {
+    background: transparent;
+    border-bottom: 0;
+    padding-top: 0;
+}
+
+.react-datepicker__navigation {
+    top: 0;
+}
+
+.react-datepicker__current-month {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
+    margin-bottom: 5px !important;
+    font-size: 18px;
+    font-weight: 400 !important;
+}
+
+.react-datepicker__day-name,
+.react-datepicker__day,
+.react-datepicker__time-name {
+    width: 36px;
+    height: 36px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 3px 7px;
+    border-radius: 50px !important;
+}
+
+
+.react-datepicker__day--selected,
+.react-datepicker__day--keyboard-selected,
+.react-datepicker__day--range-start,
+.react-datepicker__day--range-end {
+    background: #00bdbb !important;
+    color: #fff !important;
+    font-weight: 500;
+    border-radius: 50px !important;
+}
+
+.react-datepicker__day--in-range {
+    background-color: #eaf4fa;
+    color: #000;
+}
+
+.react-datepicker__week {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.react-datepicker__month {
+    margin: 0;
+}
+
+.react-datepicker__month-container:last-child {
+    margin-top: 15px;
+}
+
+/* Mobile Date picker popup */
+
+body.dialog-open {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+
+.fullSearchBar {
+    padding: 10px 10px 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.popupSearchAutocomplete {
+    width: 100% !important;
+    transform: none !important;
+    top: 61px !important;
+    height: calc(100% - 61px);
+}
+
+.popupSearchAutocomplete .MuiAutocomplete-paper {
+    height: 100%;
+    box-shadow: none !important;
+    border-radius: 0;
+}
+
+.popupSearchAutocomplete .destinationsDropdownLists {
+    max-height: 100% !important;
+}
+
+.MuiAutocomplete-popupIndicator {
+    display: none;
+}
+
+/* .destinationsDropdownPopper {
+    width: 100% !important;
+    transform: translate3d(0px, 0px, 0px) !important;
+    top: 70px !important;
+    height: 100%;
+}
+
+.destinationsDropdownPopper .MuiAutocomplete-paper {
+    height: 100%;
+    box-shadow: none;
+}
+
+.destinationsDropdownPopper .destinationsDropdownLists {
+    height: 100%;
+    max-height: 100%;
+    padding: 0;
+} */
+
+@media screen and (max-width: 575px) {
+    .sectionGap75 {
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+}

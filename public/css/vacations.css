@@ -1,0 +1,220 @@
+/* .searchFormFieldBox button,
+.searchFormFieldBox button:hover {
+    color: #676977;
+} */
+
+.searchFormFieldBox button .MuiButton-endIcon {
+    margin-left: auto;
+}
+
+.vacation-seperator {
+    width: 3px;
+    height: 133px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.17) 51.56%, rgba(0, 0, 0, 0) 100%);
+}
+
+.vacationsCategoryTabStyle .MuiTabs-flexContainer button.Mui-selected .vacationCatTabBtn {
+    outline: 2px solid #E3A70F;
+}
+
+
+.vacationCatTabBtn {
+    width: 120px;
+    height: 120px;
+    outline: 2px dashed #00BDBB;
+    border-radius: 50%;
+    padding: 8px;
+    background: #F0F9F8;
+    outline-offset: 5px;
+}
+
+.vacationCatCard {
+    padding: 15px;
+    border-radius: 10px;
+    background: #094067;
+}
+
+.vacationCatCard h4 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.vacationCatCard p {
+    font-size: 15px;
+    margin-top: 5px;
+    color: #00BDBB;
+}
+
+.vacationCatCard button {
+    color: #fff;
+    border-color: rgb(206 222 233 / 20%);
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 500;
+    height: 32px;
+}
+
+.vacationHolidayCard {
+    width: 100%;
+    height: 275px;
+    position: relative;
+    z-index: 2;
+}
+
+.vacationHolidayCardInfo {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 15px;
+    z-index: 2;
+    text-align: center;
+}
+
+.vacationHolidayCardInfo h3 {
+    color: #fff;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.vacationHolidayCardInfo p {
+    color: #fff;
+    font-size: 14px;
+}
+
+.topHolidayDestinationSection:before {
+    content: '';
+    width: 200%;
+    height: 70%;
+    background: #0A557F;
+    position: absolute;
+    bottom: -120px;
+    left: 50%;
+    transform: translateX(-50%) rotate(-4deg);
+}
+
+.vacationHolidayRightCard {
+    width: 100%;
+    height: 540px;
+    position: relative;
+    z-index: 2;
+}
+
+.vacationHolidayRightCard:before {
+    content: '';
+    width: 100%;
+    height: 50%;
+    background: #fff;
+    position: absolute;
+    right: -20px;
+    top: -20px;
+    z-index: -1;
+}
+
+.vacationHolidayRightCardInfo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(215 215 215 / 50%);
+    backdrop-filter: blur(4px);
+    width: 80%;
+    text-align: center;
+    padding: 25px;
+}
+
+.vacationHolidayRightCardInfo h3 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-family: 'Alex Brush', cursive;
+    text-shadow: 0px 4px 10px #000;
+}
+
+.vacationHolidayRightCardInfo p {
+    font-size: 15px;
+    font-weight: 400;
+    text-shadow: 0px 2px 16px #000;
+}
+
+.vacationHolidayGreenShape:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: #00bdbb;
+    position: absolute;
+    left: -20px;
+    top: 20px;
+    z-index: -1;
+}
+
+
+/* App Download Two Start */
+
+.appdownloadtwo-inner {
+    height: 276px;
+}
+
+.appdownloadtwo-image {
+    width: 415px;
+    height: 341px;
+    position: relative;
+}
+
+
+
+/* App Download Two End */
+
+
+@media screen and (max-width:991px) {
+    .searchFormFieldWrapper {
+        flex-wrap: wrap;
+    }
+
+    .searchFormFieldWrapper>.MuiBox-root {
+        width: calc(50% - 16px);
+        flex: inherit;
+    }
+
+    .searchFormFieldBox .MuiTextField-root {
+        width: 100%;
+    }
+
+    .vacationHolidayGreenShape:before,
+    .vacationHolidayRightCard:before {
+        display: none;
+    }
+
+    .vacationHolidayRightCard {
+        height: 360px;
+    }
+
+    .vacationCatTabBtn {
+        width: 100px;
+        height: 100px;
+    }
+
+    .appdownloadtwo-inner {
+        height: 226px;
+    }
+
+    .appdownloadtwo-image {
+        width: 305px;
+        height: 260px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .mobileTopHolidays .destinationCardImageWrapper {
+        height: 245px;
+    }
+
+    .mobileTopHolidays .slick-list {
+        overflow: visible;
+    }
+
+    .mobileTopHolidays .destinationCardStyle h3 {
+        font-size: 16px;
+    }
+}

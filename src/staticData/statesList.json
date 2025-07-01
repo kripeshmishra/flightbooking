@@ -1,0 +1,326 @@
+{
+    "isSuccess": true,
+    "message": "Action performed successfully!",
+    "model": [
+        {
+            "stateCode": "AK",
+            "stateName": "ALASKA",
+            "countrycode": "US"
+        },
+        {
+            "stateCode": "AL",
+            "stateName": "ALABAMA",
+            "countrycode": "US"
+        },
+        {
+            "stateCode": "AR",
+            "stateName": "ARKANSAS",
+            "countrycode": "US"
+        },
+        {
+            "stateCode": "AZ",
+            "stateName": "ARIZONA",
+            "countrycode": "US"
+        },
+        {
+            "stateCode": "CA",
+            "stateName": "CALIFORNIA",
+            "countrycode": "US"
+        },
+        {
+            "stateCode": "CO",
+            "stateName": "COLORADO",
+            "countrycode": "US"
+        },
+        {
+            "stateCode": "CT",
+            "stateName": "CONNECTICUT",
+            "countrycode": "US"
+        },
+        {
+            "stateCode": "DC",
+            "stateName": "DISTRICT OF COLUMBIA",
+            "countrycode": "US"
+        },
+        {
+            "stateCode": "DE",
+            "stateName": "DELAWARE",
+            "countrycode": "US"
+        },
+        {
+            "stateCode": "FL",
+            "stateName": "FLORIDA",
+            "countrycode": "US"
+        },
+        {
+            "stateCode": "GA",
+            "stateName": "GEORGIA",
+            "countrycode": "US"
+        },
+        {
+            "stateCode": "HI",
+            "stateName": "HAWAII",
+            "countrycode": "US"
+        },
+        {
+            "stateCode": "IA",
+            "stateName": "IOWA",
+            "countrycode": "US"
+        },
+        {
+            "stateCode": "ID",
+            "stateName": "IDAHO",
+            "countrycode": "US"
+        },
+        {
+            "stateCode": "IL",
+            "stateName": "ILLINOIS",
+            "countrycode": "US"
+        },
+        {
+            "stateCode": "IN",
+            "stateName": "INDIANA",
+            "countrycode": "US"
+        },
+        {
+            "stateCode": "KS",
+            "stateName": "KANSAS",
+            "countrycode": "US"
+        },
+        {
+            "stateCode": "KY",
+            "stateName": "KENTUCKY",
+            "countrycode": "US"
+        },
+        {
+            "stateCode": "LA",
+            "stateName": "LOUISIANA",
+            "countrycode": "US"
+        },
+        {
+            "stateCode": "MA",
+            "stateName": "MASSACHUSETTS",
+            "countrycode": "US"
+        },
+        {
+            "stateCode": "MD",
+            "stateName": "MARYLAND",
+            "countrycode": "US"
+        },
+        {
+            "stateCode": "ME",
+            "stateName": "MAINE",
+            "countrycode": "US"
+        },
+        {
+            "stateCode": "MI",
+            "stateName": "MICHIGAN",
+            "countrycode": "US"
+        },
+        {
+            "stateCode": "MN",
+            "stateName": "MINNESOTA",
+            "countrycode": "US"
+        },
+        {
+            "stateCode": "MO",
+            "stateName": "MISSOURI",
+            "countrycode": "US"
+        },
+        {
+            "stateCode": "MS",
+            "stateName": "MISSISSIPI",
+            "countrycode": "US"
+        },
+        {
+            "stateCode": "MT",
+            "stateName": "MONTANA",
+            "countrycode": "US"
+        },
+        {
+            "stateCode": "NC",
+            "stateName": "NORTH CAROLINA",
+            "countrycode": "US"
+        },
+        {
+            "stateCode": "ND",
+            "stateName": "NORTH DAKOTA",
+            "countrycode": "US"
+        },
+        {
+            "stateCode": "NE",
+            "stateName": "NEBRASKA",
+            "countrycode": "US"
+        },
+        {
+            "stateCode": "NH",
+            "stateName": "NEW HAMPSHIRE",
+            "countrycode": "US"
+        },
+        {
+            "stateCode": "NJ",
+            "stateName": "NEW JERSEY",
+            "countrycode": "US"
+        },
+        {
+            "stateCode": "NM",
+            "stateName": "NEW MEXICO",
+            "countrycode": "US"
+        },
+        {
+            "stateCode": "NV",
+            "stateName": "NEVADA",
+            "countrycode": "US"
+        },
+        {
+            "stateCode": "NY",
+            "stateName": "NEW YORK",
+            "countrycode": "US"
+        },
+        {
+            "stateCode": "OH",
+            "stateName": "OHIO",
+            "countrycode": "US"
+        },
+        {
+            "stateCode": "OK",
+            "stateName": "OKLAHOMA",
+            "countrycode": "US"
+        },
+        {
+            "stateCode": "OR",
+            "stateName": "OREGON",
+            "countrycode": "US"
+        },
+        {
+            "stateCode": "PA",
+            "stateName": "PENNSYLVANIA",
+            "countrycode": "US"
+        },
+        {
+            "stateCode": "RI",
+            "stateName": "RHODE ISLAND",
+            "countrycode": "US"
+        },
+        {
+            "stateCode": "SC",
+            "stateName": "SOUTH CAROLINA",
+            "countrycode": "US"
+        },
+        {
+            "stateCode": "SD",
+            "stateName": "SOUTH DAKOTA",
+            "countrycode": "US"
+        },
+        {
+            "stateCode": "TN",
+            "stateName": "TENNESSEE",
+            "countrycode": "US"
+        },
+        {
+            "stateCode": "TX",
+            "stateName": "TEXAS",
+            "countrycode": "US"
+        },
+        {
+            "stateCode": "UT",
+            "stateName": "UTAH",
+            "countrycode": "US"
+        },
+        {
+            "stateCode": "VA",
+            "stateName": "VIRGINIA",
+            "countrycode": "US"
+        },
+        {
+            "stateCode": "VT",
+            "stateName": "VERMONT",
+            "countrycode": "US"
+        },
+        {
+            "stateCode": "WA",
+            "stateName": "WASHINGTON",
+            "countrycode": "US"
+        },
+        {
+            "stateCode": "WI",
+            "stateName": "WISCONSIN",
+            "countrycode": "US"
+        },
+        {
+            "stateCode": "WV",
+            "stateName": "WEST VIRGINIA",
+            "countrycode": "US"
+        },
+        {
+            "stateCode": "WY",
+            "stateName": "WYOMING",
+            "countrycode": "US"
+        },
+        {
+            "stateCode": "AB",
+            "stateName": "ALBERTA",
+            "countrycode": "CA"
+        },
+        {
+            "stateCode": "BC",
+            "stateName": "BRITISH COLUMBIA",
+            "countrycode": "CA"
+        },
+        {
+            "stateCode": "MB",
+            "stateName": "MANITOBA",
+            "countrycode": "CA"
+        },
+        {
+            "stateCode": "NB",
+            "stateName": "NEW BRUNSWICK",
+            "countrycode": "CA"
+        },
+        {
+            "stateCode": "NL",
+            "stateName": "NEWFOUNDLAND AND LABRADOR",
+            "countrycode": "CA"
+        },
+        {
+            "stateCode": "NS",
+            "stateName": "NOVA SCOTIA",
+            "countrycode": "CA"
+        },
+        {
+            "stateCode": "NT",
+            "stateName": "NORTHWEST TERRITORIES",
+            "countrycode": "CA"
+        },
+        {
+            "stateCode": "NU",
+            "stateName": "NUNAVUT",
+            "countrycode": "CA"
+        },
+        {
+            "stateCode": "ON",
+            "stateName": "ONTARIO",
+            "countrycode": "CA"
+        },
+        {
+            "stateCode": "PE",
+            "stateName": "PRINCE EDWARD ISLAND",
+            "countrycode": "CA"
+        },
+        {
+            "stateCode": "QC",
+            "stateName": "QUEBEC",
+            "countrycode": "CA"
+        },
+        {
+            "stateCode": "SK",
+            "stateName": "SASKATCHEWAN",
+            "countrycode": "CA"
+        },
+        {
+            "stateCode": "YT",
+            "stateName": "YUKON TERRITORY",
+            "countrycode": "CA"
+        }
+    ]
+}

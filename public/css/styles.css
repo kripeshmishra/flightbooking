@@ -1,0 +1,1304 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Barlow:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+@import "react-datepicker/dist/react-datepicker.css";
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    height: 100%;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Poppins', sans-serif;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+input,
+select,
+button,
+textarea {
+    font-family: 'Barlow', sans-serif;
+    font-size: 15px;
+}
+
+*:focus,
+select:focus,
+.custom-select:focus,
+button:focus,
+textarea:focus,
+textarea.form-control:focus,
+input.form-control:focus,
+input[type=text]:focus,
+input[type=password]:focus,
+input[type=email]:focus,
+input[type=number]:focus,
+[type=text].form-control:focus,
+[type=password].form-control:focus,
+[type=email].form-control:focus,
+[type=tel].form-control:focus,
+[contenteditable].form-control:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-background-clip: text;
+    transition: background-color 5000s ease-in-out 0s;
+    box-shadow: none;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+input:focus::-moz-placeholder {
+    opacity: 0;
+    -moz-transition: 0.4s;
+    transition: 0.4s;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #00BDBB;
+}
+
+
+p {
+    font-size: 15px;
+}
+
+
+p+p {
+    margin-top: 15px !important;
+}
+
+
+/* Spacing and Colors */
+
+.sectionGap75 {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.sectionGap60 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.sectionGap45 {
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+.bg-dark-primary {
+    background: #00BDBB;
+}
+
+.bg-dark-secondary {
+    background: #0A557F;
+}
+
+.bg-light-green {
+    background: #ECF8F6;
+}
+
+.sectionTitle {
+    margin-bottom: 20px;
+}
+
+.sectionTitle h2 {
+    font-size: 24px;
+    color: #000000;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.textEllipseOneLine {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.textEllipseTwoLine {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    white-space: pre-wrap;
+}
+
+/* Spacing and Colors */
+
+
+
+
+/* Hero Section Start*/
+
+.heroBannerSection {
+    height: 420px;
+    background: #023256;
+    padding-top: 60px;
+    background-repeat: repeat;
+    background-size: contain;
+    background-position: bottom;
+}
+
+.searchMainWrapper {
+    width: 100%;
+    padding: 25px;
+    margin-top: 25px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0px 0px 17px 0px #04302F0F;
+}
+
+.heroCaptions h1 {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.heroCaptions p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.searchFormFieldBox svg {
+    color: #0A557F;
+}
+
+.searchFormFieldWrapper>.MuiBox-root {
+    display: flex;
+    flex: 1;
+}
+
+
+
+
+/* Hero Section End*/
+
+
+/* Search Widgit Start*/
+
+
+.searchFormFieldBox {
+    position: relative;
+}
+
+.searchFormFieldBox .MuiInputBase-root {
+    height: 48px !important;
+    border-radius: 8px !important;
+    border-color: #C3DEDB !important;
+    padding-right: 15px !important;
+}
+
+.searchFormLeftIcon {
+    position: absolute;
+    left: 10px;
+    z-index: 2;
+    top: 15px;
+}
+
+.destinationsDropdownPopper {
+    width: 340px !important;
+}
+
+.searchFormFieldBox .MuiAutocomplete-root .MuiInputBase-root {
+    padding-left: 30px;
+}
+
+.searchFormFieldBox .MuiInputLabel-shrink {
+    display: none;
+    transform-origin: unset;
+}
+
+.searchFormFieldBox .MuiInputLabel-root {
+    font-size: 14px !important;
+    color: #676977;
+    font-weight: 400;
+}
+
+.MuiPickersDay-root.Mui-selected {
+    color: #fff !important;
+}
+
+.searchFormFieldBox .MuiInputAdornment-root button.MuiButtonBase-root {
+    padding: 0;
+    margin-right: 0px;
+    font-size: 20px;
+}
+
+.transparentSelect {
+    background: transparent;
+    border: 0;
+}
+
+.travelerCountBoxAction {
+    margin-left: auto;
+    gap: 5px;
+    border-radius: 50px;
+    align-items: center;
+    padding: 5px 5px;
+    border: 1px solid #ddd;
+    height: 25px;
+    width: 80px;
+}
+
+.travelerCountBox h5 {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.travelerCountBox {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
+}
+
+
+.travelerCountBox:last-child {
+    margin: 0;
+    border-bottom: 0
+}
+
+.travelerCountBox p {
+    font-size: 12px;
+}
+
+.travelerCountBoxAction button {
+    width: auto;
+    height: auto;
+    padding: 0;
+    font-size: 15px;
+}
+
+.travelerCountBoxAction p.MuiTypography-root {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    min-width: 25px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1;
+}
+
+.searchWidgetDateWrapper .MuiFormControl-root {
+    border-radius: 0;
+}
+
+
+.searchWidgetDateWrapper .MuiInputBase-root {
+    border: 0 !important;
+}
+
+.searchWidgetDateWrapper .MuiInputAdornment-positionStart {
+    margin-left: 15px;
+}
+
+.searchWidgetDateWrapper .MuiInputAdornment-positionStart .MuiIconButton-root {
+    font-size: 20px;
+}
+
+.searchWidgetDateWrapper {
+    overflow: hidden;
+    border-radius: 8px;
+    flex: 1.5 !important;
+    align-items: center;
+}
+
+.searchFormFieldBox .MuiFormControl-root {
+    width: 100%;
+}
+
+.transparentSelectBtn {
+    text-transform: capitalize !important;
+    background: transparent !important;
+    border: 0 !important;
+    width: auto !important;
+    font-weight: 500 !important;
+    height: auto !important;
+    color: #000000 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.searchMainWrapper .MuiFormControlLabel-label {
+    color: #000000;
+    font-weight: 500;
+}
+
+.transparentSelectBtn .MuiSelect-select {
+    border: 0;
+    margin: 0;
+    line-height: 1.5 !important;
+    font-weight: 500 !important;
+    color: #000000 !important;
+    padding-left: 0 !important;
+}
+
+.transparentSelectBtn .MuiSelect-icon,
+.transparentSelectBtn svg {
+    color: #003053 !important;
+}
+
+.transparentSelectBtn .MuiOutlinedInput-notchedOutline {
+    border: 0;
+}
+
+.travelerCountWrapper {
+    padding: 12px !important;
+    min-width: 250px;
+}
+
+
+.searchFlightFromToWrapper {
+    display: flex;
+    width: 58%;
+    position: relative;
+    gap: 12px;
+}
+
+.searchFlightFromToWrapper .searchFormFieldBox {
+    width: 100%;
+}
+
+.searchFlightDateWrapper {
+    display: flex;
+    flex: 1;
+    margin: 0 15px;
+    background: #fff;
+    height: 48px;
+    border-radius: 8px;
+    padding: 0;
+    border: 1px solid #C3DEDB;
+}
+
+.react-datepicker-wrapper {
+    width: 100%;
+}
+
+.searchFlightDateWrapper .react-datepicker__input-container {
+    height: 100%;
+}
+
+.react-datepicker__tab-loop {
+    z-index: 9;
+}
+
+.react-datepicker-wrapper input {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    border-radius: 8px;
+    background: transparent;
+    z-index: 2;
+    position: relative;
+    padding-left: 40px !important;
+}
+
+.searchFlightDateWrapper .react-datepicker__calendar-icon {
+    height: 100%;
+    padding: 0 !important;
+    z-index: 1;
+    left: 12px;
+    color: #0A557F;
+    font-size: 18px;
+}
+
+.searchFlightDateWrapper .rmdp-container {
+    width: 100%;
+    height: 100% !important;
+}
+
+.searchWidgetDateTo {
+    margin-left: 10px;
+}
+
+.searchFlightDateWrapper input.rmdp-input {
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    border: 0;
+}
+
+.destinationFieldBox .MuiAutocomplete-root .MuiInputBase-root {
+    padding-left: 45px;
+}
+
+.destinationFieldBox .searchFormLeftIcon {
+    left: 24px;
+}
+
+.searchFlightDateWrapper .MuiInputBase-root {
+    width: 100%;
+    border: 0;
+    padding: 0;
+}
+
+.searchFlightDateWrapper .MuiInputBase-root {
+    border: 0;
+    padding-left: 20px;
+}
+
+
+.searchFlightFromToWrapper .MuiAutocomplete-hasClearIcon .MuiAutocomplete-endAdornment {
+    display: none;
+}
+
+.searchWidgetDateTo svg.MuiSvgIcon-root {
+    display: none;
+}
+
+.searchWidgetDateTo .MuiInputBase-root {
+    padding-left: 0;
+}
+
+.searchWidgetDateTo .MuiInputAdornment-root {
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+    margin: 0;
+}
+
+.searchWidgetDateTo .MuiIconButton-root {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+    text-align: left;
+}
+
+.searchWidgetDateTo .MuiInputLabel-root {
+    padding-left: 15px;
+}
+
+.searchWidgetDateTo .MuiIconButton-root:hover,
+.searchWidgetDateFrom .MuiInputAdornment-root .MuiIconButton-root,
+.Mui-focused .MuiIconButton-root {
+    background: transparent;
+}
+
+.searchWidgetDateFrom .MuiInputAdornment-root {
+    width: 100%;
+    height: 100%;
+}
+
+.searchWidgetDateFrom .MuiInputAdornment-root .MuiIconButton-root {
+    width: 100%;
+    border-radius: 0;
+    height: 100%;
+    left: 0;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.MuiPickersPopper-root .MuiPickersDay-root,
+.MuiPickersPopper-root .MuiPickersYear-yearButton {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.MuiPickersPopper-root .MuiPickersYear-yearButton.Mui-selected {
+    color: #ffffff;
+}
+
+.searchWidgetDateFrom,
+.searchWidgetDateTo {
+    width: 100%;
+}
+
+.MuiPickersCalendarHeader-root {
+    position: relative;
+    padding: 0 !important;
+}
+
+.MuiPickersCalendarHeader-labelContainer {
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+}
+
+.MuiPickersArrowSwitcher-root {
+    position: absolute;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+
+.searchFlightsForm .MuiFormHelperText-root.Mui-error {
+    position: absolute;
+    bottom: -20px;
+    left: 10px;
+    font-weight: 500 !important;
+}
+
+.searchFlightsForm button {
+    border-radius: 8px;
+}
+
+.searchFlightDateWrapper .MuiFormHelperText-root.Mui-error {
+    bottom: -32px;
+}
+
+.searchFormFieldBox .MuiAutocomplete-root.has-error .MuiInputBase-root,
+.searchFlightDateWrapper.has-error {
+    border-color: #ff9090 !important;
+    background: #fff0f0;
+}
+
+.searchFlightDateWrapper .MuiTextField-root {
+    background: transparent;
+}
+
+
+.swapBtn {
+    width: 40px;
+    height: 35px;
+    min-width: 32px;
+    border: 1px solid #E7E7E7;
+    background: #fff;
+    position: absolute;
+    right: 0;
+    margin: auto;
+    z-index: 2;
+    top: 0;
+    cursor: pointer;
+    border: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.swapBtn:hover {
+    /* background: #f3f3f3; */
+    background: #FFFFFF;
+}
+
+.btn_swap .MuiInputBase-root {
+    overflow: hidden;
+    position: relative;
+}
+
+.btn_swap .MuiInputBase-root::after {
+    content: "";
+    position: absolute;
+    right: -24px;
+    border: 1px solid #C3DEDB;
+    width: 39px;
+    height: 36px;
+    border-radius: 50%;
+    top: 5px;
+    z-index: 3;
+}
+
+.btn_swap.btn_swap_right .MuiInputBase-root::after {
+    right: auto;
+    left: -24px;
+}
+
+.btn_swap_left .MuiInputBase-root {
+    border-top-right-radius: 2px !important;
+    border-bottom-right-radius: 2px !important;
+}
+
+.btn_swap_right .MuiInputBase-root {
+    border-top-left-radius: 2px !important;
+    border-bottom-left-radius: 2px !important;
+}
+
+
+/* Search Widgit End */
+
+
+.imageGradientEffect:before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 100%);
+    z-index: 2;
+}
+
+.imageGradientEffect img {
+    transition: all 0.3s ease-in-out;
+}
+
+.imageGradientEffect:hover img {
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+
+/* Popular Flights */
+
+.tabStyleButton {
+    margin-bottom: 40px !important;
+    overflow: visible !important;
+}
+
+.tabStyleButton .MuiTabs-scroller {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: visible !important;
+}
+
+.tabStyleButton .MuiTabs-flexContainer {
+    justify-content: center;
+    border: 1px solid #C3DEDB;
+    border-radius: 50px;
+    display: flex;
+    padding: 5px;
+    height: 42px;
+    align-items: center;
+}
+
+.tabStyleButton .MuiTabs-flexContainer button {
+    padding: 0;
+    height: 32px;
+    min-height: auto;
+    color: #403E55;
+    font-size: 14px;
+    font-weight: 500;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.tabStyleButton .MuiTabs-flexContainer button.Mui-selected {
+    background: #ffffff;
+    border-radius: 50px;
+    color: #00BDBB;
+    box-shadow: 0px 0px 10px 0px #0030531A !important;
+    transform: scale(1.3);
+    font-size: 12px;
+}
+
+.flightBookCard {
+    background: #F0F9F8;
+    padding: 12px;
+    align-items: center;
+    gap: 15px;
+    border-radius: 8px;
+}
+
+.flightBookImageWrapper {
+    position: relative;
+    width: 80px;
+    height: 70px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.flightBookFromTo h5 {
+    font-weight: 400;
+    font-size: 15px;
+    color: #555660;
+}
+
+.flightBookFromTo h4 {
+    font-weight: 500;
+    font-size: 15px;
+    color: #0F2454;
+}
+
+.flightBookCard .flightFares {
+    color: #F27502;
+    font-size: 14px;
+}
+
+.flightBookCard button {
+    text-transform: capitalize;
+    font-weight: 400;
+    height: 32px;
+    line-height: 1;
+}
+
+/* Popular Flights */
+
+.customCheckBoxStyle {
+    margin-left: 0 !important;
+}
+
+.customCheckBoxStyle .MuiCheckbox-root {
+    margin-right: 8px;
+}
+
+.customCheckBoxStyle span.MuiTypography-root {
+    width: 100%;
+}
+
+
+
+/* Newsletter  Section*/
+
+.newsletter-section {
+    background-position: right top, left bottom;
+    background-repeat: no-repeat;
+}
+
+.newsletter-contentWrapper hr {
+    height: 100px;
+    border-color: rgb(255 255 255 / 15%);
+    margin: 0 20px;
+}
+
+.newsletter-section .newslettersubtitle {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.newsletter-section .newslettertitle {
+    color: #fff;
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 6px;
+}
+
+.newsletterTopIcon {
+    background: #F27502;
+    width: 60px;
+    height: 60px;
+    font-size: 28px;
+    color: #fff;
+    border-radius: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    top: -13px;
+    position: absolute;
+    right: -15px;
+    cursor: pointer;
+}
+
+.newsletterform {
+    height: 45px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    gap: 20px;
+}
+
+.newsletterCheckbox {
+    color: rgb(255 255 255 / 60%);
+    margin-left: 0 !important;
+    align-items: flex-start !important;
+}
+
+.newsletterCheckbox .MuiCheckbox-root {
+    color: rgb(255 255 255 / 60%);
+    margin-right: 10px;
+}
+
+.newsletterCheckbox h6 {
+    font-weight: 400;
+    color: rgb(255 255 255 / 60%);
+    font-size: 14px;
+}
+
+.newsletterform button {
+    text-transform: capitalize;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.newsletterform .MuiTextField-root {
+    flex: 1;
+}
+
+.newsletterform .MuiInputBase-root {
+    height: 100% !important;
+    border: 0 !important;
+}
+
+.newsletterAlertMessage {
+    position: absolute;
+    left: 10px;
+    top: inherit;
+    bottom: 100%;
+    margin-top: 0;
+    margin-bottom: 10px;
+    box-shadow: 0px -25px 20px -20px rgb(0 0 0 / 26%);
+}
+
+.newsletterAlertMessage .MuiAlert-standard {
+    border-radius: 5px;
+    padding: 0 10px;
+    background: #ff5252;
+    text-align: left;
+}
+
+.newsletterAlertMessage .MuiAlert-standard.MuiAlert-standardSuccess {
+    background: #0F9E51;
+}
+
+.newsletterAlertMessage .MuiAlert-standard:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 14px;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(255 229 236);
+    transform: translateY(-50%) rotate(45deg);
+    z-index: 0;
+    bottom: -10px;
+}
+
+.newsletterAlertMessage .MuiAlert-standardSuccess:before {
+    background-color: #0F9E51;
+}
+
+.newsletterAlertMessage .MuiAlert-standardError:before {
+    background-color: rgb(255 82 82);
+}
+
+.newsletterAlertMessage .MuiAlert-message {
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.newsletterform .newsletterAlertMessage,
+.newsletterModalform .newsletterAlertMessage {
+    max-width: 420px;
+}
+
+.newsletterAlertMessage .MuiAlert-action button {
+    color: #FF3F72;
+    text-transform: capitalize;
+    min-width: auto;
+    border-radius: 50px;
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+    background: #ffffff4d;
+    margin-top: 3px;
+    padding: 0;
+}
+
+.newsletterAlertMessage .MuiAlert-action button:hover {
+    color: #FF3F72;
+    background: rgb(255 255 255 / 21%);
+}
+
+.newsletterAlertMessage .MuiAlert-action button svg {
+    stroke: #fff;
+}
+
+.newsletterAlertMessage .MuiAlert-icon {
+    color: #fff !important;
+    margin-top: 3px;
+    margin-right: 10px;
+}
+
+.newsletter-contentWrapper .MuiCheckbox-root {
+    color: #fff !important;
+}
+
+/* Newsletter Section End*/
+
+
+/* Login Start */
+
+.loginLeftWrapper {
+    height: 420px;
+    z-index: 2;
+}
+
+.loginMainWrapper {
+    background: linear-gradient(94.14deg, #023256 3.09%, #016AAE 100%);
+}
+
+.loginOrWrapper span:before {
+    width: 100px;
+    content: '';
+    height: 1px;
+    position: absolute;
+    left: -100px;
+    background: #D4E0E8;
+}
+
+.loginOrWrapper span:after {
+    width: 100px;
+    content: '';
+    height: 1px;
+    position: absolute;
+    right: -100px;
+    background: #D4E0E8;
+}
+
+.loginLeftWrapper:before {
+    content: '';
+    position: absolute;
+    background: #00bdbb;
+    width: 130px;
+    height: 70px;
+    right: -18px;
+    z-index: -1;
+    border-radius: 14px;
+    transform: translateY(-50%) rotate(45deg);
+    top: 45%;
+}
+
+.loginGoogleBtn:hover span,
+.loginfacebookBtn:hover span,
+.loginLinkedinBtn:hover span {
+    color: #fff !important;
+}
+
+.authModalCloseBtn {
+    position: absolute !important;
+    right: 0;
+    top: 0;
+}
+
+.DialogPopupSmWidth .MuiDialog-paper {
+    width: 520px;
+}
+
+.DialogPopupMdWidth .MuiDialog-paper {
+    width: 750px;
+}
+
+.DialogPopupStyle .MuiDialog-paper {
+    max-width: 100%;
+    border-radius: 12px;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* Login End */
+
+
+.downloadActionWrapper {
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.downloadActionWrapper button {
+    background: #000000;
+    height: 50px;
+    padding: 10px 30px;
+    gap: 8px;
+    font-size: 16px;
+}
+
+.MuiPopoverCustomShadow {
+    box-shadow: 0px 0px 14px 5px rgb(0 0 0 / 9%) !important;
+}
+
+
+/* Calender Style */
+
+
+.react-datepicker {
+    box-shadow: 0 1px 3px 0 rgba(60, 64, 67, .3), 0 4px 8px 3px rgba(60, 64, 67, .15);
+    border: 0 !important;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.react-datepicker__tab-loop .react-datepicker__header {
+    background: transparent;
+    border-bottom: 0;
+    margin-top: 10px;
+}
+
+.react-datepicker__tab-loop .react-datepicker__month-container {
+    float: left;
+}
+
+
+.react-datepicker__tab-loop .react-datepicker__day-name,
+.react-datepicker__tab-loop .react-datepicker__day,
+.react-datepicker__tab-loop .react-datepicker__time-name {
+    width: 42px;
+    height: 42px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 3px;
+    border-radius: 50px !important;
+}
+
+.react-datepicker__tab-loop .react-datepicker__current-month {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    margin-bottom: 5px !important;
+    font-size: 18px;
+    font-weight: 400 !important;
+}
+
+.react-datepicker__tab-loop .react-datepicker__week {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.react-datepicker__tab-loop .react-datepicker__current-month,
+.react-datepicker__tab-loop .react-datepicker-time__header,
+.react-datepicker__tab-loop .react-datepicker-year-header {
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.react-datepicker__tab-loop .react-datepicker__navigation {
+    top: 20px;
+}
+
+.react-datepicker__tab-loop .react-datepicker__day--selected,
+.react-datepicker__tab-loop .react-datepicker__day--keyboard-selected,
+.react-datepicker__tab-loop .react-datepicker__day--range-start,
+.react-datepicker__tab-loop .react-datepicker__day--range-end {
+    background: #00bdbb !important;
+    color: #fff !important;
+    font-weight: 500;
+    border-radius: 50px !important;
+}
+
+.react-datepicker__tab-loop .react-datepicker__day--range-end:hover,
+.react-datepicker__tab-loop .react-datepicker__day--range-start {
+    border-radius: 50px !important;
+}
+
+.react-datepicker__tab-loop .react-datepicker__day--outside-month {
+    visibility: hidden;
+}
+
+.react-datepicker__tab-loop .react-datepicker__day:hover {
+    background-color: #00bdbb;
+    color: #fff;
+    border-radius: 50px !important;
+    border: 1px solid #00bdbb;
+}
+
+.react-datepicker__tab-loop .react-datepicker__day--in-range {
+    background-color: #eaf4fa;
+    color: #000;
+}
+
+.react-datepicker-popper[data-placement^=bottom] .react-datepicker__triangle {
+    stroke: #fff !important;
+    filter: drop-shadow(0 0px 0px rgba(60, 64, 67, 0.8));
+    color: #fff !important;
+    fill: #fff !important;
+}
+
+.react-datepicker__tab-loop .react-datepicker__month {
+    margin: 20px;
+    margin-top: 0;
+}
+
+
+/* Calender Style */
+
+/* Currency Menu Popup */
+
+.menuLangaugeLists {
+    margin-bottom: 15px;
+    gap: 20px;
+    margin-left: -15px;
+}
+
+.langaugeCurrencyMenu h4 {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #e2dfdf;
+    padding-bottom: 10px;
+}
+
+.menuLangaugeLists li {
+    width: 33.33%;
+    font-size: 15px !important;
+    border-radius: 50px;
+    font-weight: 500;
+}
+
+.menuCurrencyLists {
+    gap: 20px;
+    margin-left: -15px;
+}
+
+.menuCurrencyLists li {
+    width: calc(25% - 15px);
+    font-size: 15px !important;
+    border-radius: 50px;
+    font-weight: 500;
+}
+
+/* Currency Menu Popup */
+
+
+span.uncheckedWrapper {
+    border: 1px solid #CEDEE9;
+    width: 19px;
+    height: 19px;
+    border-radius: 3px;
+    background: #fff;
+}
+
+span.checkedWrapper {
+    border: 1px solid #00BDBB;
+    width: 19px;
+    height: 19px;
+    border-radius: 3px;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+span.checkedWrapper svg {
+    color: #00BDBB;
+    stroke-width: 2;
+}
+
+.textPoppins {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.MuiPickersMonth-monthButton.Mui-selected {
+    color: #fff !important;
+}
+
+@media screen and (max-width: 1200px) {
+    .sectionGap75 {
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+}
+
+
+@media only screen and (max-width:991px) {
+
+    .mobileMenuTop {
+        padding: 15px;
+    }
+
+    .mobileMenuTop .mobileMenuCloseBtn {
+        position: absolute;
+        right: 5px;
+        border-radius: 50px;
+        min-width: 30px;
+        height: 30px;
+        width: 30px;
+        padding: 5px;
+        top: 5px;
+        border: 1px solid #ddd;
+    }
+
+    .mobileMenuTopBox {
+        margin-top: 30px;
+        background: #F1FDFF;
+        padding: 15px;
+        border-radius: 10px;
+        text-align: center;
+        border: 1px solid #D9F5FA;
+    }
+
+    .mobileMenuTopBox h3 {
+        font-size: 17px;
+        font-weight: 600;
+    }
+
+    .mobileMenuTopBox p {
+        margin-bottom: 8px;
+        margin-top: 3px;
+    }
+
+    .mobileHeaderMenu {
+        width: 250px;
+        padding: 0 15px;
+    }
+
+    .mobileHeaderMenu li {
+        padding: 5px 0;
+        border-bottom: 1px solid #e7e7e7;
+    }
+
+    .mobileHeaderMenu li a {
+        padding: 3px;
+        border-radius: 0;
+        text-align: left;
+    }
+
+    .mobileHeaderMenu li .MuiTypography-root {
+        font-size: 14px;
+    }
+
+    .mobileHeaderMenu li:last-child {
+        border: 0;
+    }
+
+    .sectionGap60 {
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+
+    .newsletter-contentWrapper hr {
+        display: none;
+    }
+
+    .newsletter-section .newslettertitle,
+    .newsletter-section .newslettersubtitle {
+        text-align: center;
+    }
+
+}
